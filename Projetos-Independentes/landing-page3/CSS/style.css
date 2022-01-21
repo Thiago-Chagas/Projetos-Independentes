@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../IMAGENS/img-photo-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*logo*/
+
+.logo{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:50px 120px; 
+    height: 100px;
+    width: 400px;
+    font-size: 19px;
+    word-spacing: -10px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+
+.logo > h1 > span{
+    color: rgb(185, 185, 185);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.logo > p{
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    font-size: 15px;
+    letter-spacing: 8px;
+    color: rgb(185, 185, 185);
+}
+
+.img{
+    position: absolute;
+    font-size: 65px;
+    margin:48px 40px;
+    color: yellow;
+}
+
+/*MENU*/
+
+.menu{
+    width: 550px;
+    height: 80px;
+    position: absolute;
+    right: -3%;
+    float: right;
+    margin: 50px;
+}
+
+.menu > ul > li{
+    float: left;
+    list-style: none;
+    padding: 27px;
+    align: center;
+}
+
+.menu > ul > li > a{
+    text-decoration:none;
+    color: white;
+    font-size: 20px;
+}
+
+.menu > ul > li > a:hover{
+    color: yellow;
+}
+
+/*TEXTO PRINCIPAL*/
+
+.principal{
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    margin: 250px 500px;
+    text-align: center;
+}
+
+.principal > h1{
+    font-size: 60px;
+    margin: -150px;
+    right: 40%;
+    position: absolute;
+    color: white;
+}
+
+.principal > h1 > span{ 
+    color: yellow;
+    font-size: 60px;
+}
+
+.principal:hover{
+    transform: scale(1.1);
+}
+
+.principal > h2{
+    color: yellow;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+
+.principal > h3{
+    color: rgb(185, 185, 185);
+    font-size: 14px;
+    word-spacing: 6px;
+}
+
+.botao{
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    margin: 480px 500px;
+    text-align: center;
+    
+}
+
+.botao > button{
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    width: 230px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.titulo-principal > h1 > span{
+    color: white;
+}
+
+.cop{
+    margin: 600px 0 0 0 ;
+    color: black;
+    position: absolute;
+}
+
+.cop > p{
+    margin-left: 60px;
+    margin-top: 70px;
+    color: rgba(0, 0, 0, 0.468);
+    position: absolute;
+    width: 300px;
+}
+
+.cop > i{
+    color: rgba(0, 0, 0, 0.468);
+    margin-top: 70px;
+    margin-left: 38px;
+    font-size: 18px;
+}
+
+.icones{
+    right: 10%;
+    position: absolute;
+    margin-top: 660px;
+}
+
+.icones > a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.icones > a > i{
+    letter-spacing: 8px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: yellow;
+    width: 18px;
+    height: 19px;
+    align-items: center;
+    padding: 5px;
+    padding-left: 8px;
+}

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../IMAGENS/img-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -80px;
+}
+
+.principal{
+    width: 400px;
+    height: 600px;
+    margin: 45px auto 0 auto;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 0 auto;
+}
+
+.input{
+    position: relative;
+}
+
+.input > input{
+    width: 332px;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.432);
+    margin: 10px auto 10px auto;
+    background-color: #28293E;
+    border-style: none;
+}
+
+.input > input:focus{
+    outline: none;
+}
+
+.input > i{
+    position: absolute;
+    font-size: 25px;
+    top: 20px;
+    left: 22px;
+    color: white;
+}
+
+.input > input::placeholder{
+    color: white;
+}
+
+.input > input[type="text"], .input > input[type="email"], .input > input[type="password"]{
+    font-size: 21px;
+    color: white;
+    padding-left: 65px;
+}
+
+.go-back, .sign-up{
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 10px auto 10px auto;
+    color: white;
+    font-size: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.go-back{
+    background-color: aqua;
+}
+
+.sign-up{
+    background-color: #1F2035;
+}

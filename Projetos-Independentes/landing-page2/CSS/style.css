@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../IMAGENS/img-barber-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo1{
+    width: 400px;
+    margin-top: 20px;
+    padding-left: 150px;
+    top: 30px;
+    position: absolute;
+}
+
+.menu{
+    width: 510px;
+    float: right;
+    margin-top: 80px;
+    background-color: black;
+}
+
+.menu > ul > li{
+    padding: 10px;
+    list-style: none;
+    float: left;
+    align: center;
+}
+
+.menu > ul > li > a{
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.menu > ul > li > a:hover{
+    color: rgb(245, 197, 65);
+}
+
+.texto{
+    margin: 250px 120px;
+    position: absolute;
+    width: 500px;
+    font-family:'Times New Roman', Times, serif;
+    padding-bottom: 100px;
+}
+
+.texto > h1{
+    color: white;
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+
+.texto > h2{
+    color: rgb(245, 197, 65);
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+
+.texto > p{
+    color: white;
+    font-size: 18px;
+}
+
+.download{
+    width: 300px;
+    height: 30px;
+    margin: 497px 120px;
+    background-color: rgb(245, 197, 65);
+    font-size: 20px;
+    border-style: none;
+    cursor: pointer;
+    position: absolute;
+}
+
+.texto2{
+    margin: 540px 120px;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+}
+
+.logo2{
+    width: 420px;
+    height: 390px;
+    margin:200px 900px ;
+    position: absolute;
+}
+
+.icones{
+    position: absolute;
+    font-size: 25px;
+    margin:705px 300px;
+    width: 300px;
+    height: 40px;
+}
+
+.icones > a{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
